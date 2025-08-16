@@ -1,7 +1,7 @@
 This project implements an image captioning system using a Vision Transformer (ViT) encoder and a Transformer decoder in PyTorch.
 It takes an image as input and generates a descriptive caption in natural language.
 
-🔹 Features
+- Features
 ViT Encoder: Extracts high-level visual features from images.
 
 Transformer Decoder: Generates captions word-by-word using attention.
@@ -12,7 +12,7 @@ Label Smoothing: Stabilizes training and improves generalization.
 
 Configurable Parameters: Easily adjust embedding size, layers, dropout, beam size, etc.
 
-🔹 Workflow
+- Workflow
 Training (improved_train.py)
 
 Builds vocabulary from captions.
@@ -31,7 +31,7 @@ Generates captions for test images using beam search.
 
 Saves results to a CSV file.
 
-🔹 Tech Stack
+- Tech Stack
 Language: Python 3.x
 
 Framework: PyTorch
@@ -42,7 +42,7 @@ Data Processing: Pandas, PIL, torchvision
 
 The "main.py" file can do all the work on its own, but I achieved more consistent results when I split it into two parts: "generate.py" and "train.py".
 
-# 🖼️ Image Captioning with Vision Transformer & Transformer Decoder
+-- Image Captioning with Vision Transformer & Transformer Decoder
 
 This project implements an **image captioning system** using a **Vision Transformer (ViT) encoder** and a **Transformer decoder** in PyTorch.  
 It takes an image as input and generates a descriptive caption in natural language.
@@ -64,7 +64,7 @@ Features
  
 ---
 
-## ⚙️ Installation
+-- Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/image-captioning-vit-transformer.git
